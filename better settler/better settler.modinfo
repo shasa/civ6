@@ -1,0 +1,22 @@
+﻿<!--MOD BY github.com/shasa-->
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="242f87c4-40f8-486c-a877-8d91fc07a2df" version="1.0">
+  <Properties>
+    <Name>Better Settler Mod</Name>
+    <Description>improves movement by 5 tiles, improves visibility by 5 tiles and the settler is not slowed down by a terrain type.</Description>
+    <Teaser>This mod improves the settler.</Teaser>
+    <Authors>Shasa</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="better_settler_shasa">
+	  <Properties>
+        <LoadOrder>126</LoadOrder>
+      </Properties>
+      <File>settler.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>settler.sql</File>
+  </Files>
+</Mod>
