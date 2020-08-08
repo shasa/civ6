@@ -1,0 +1,22 @@
+﻿<!--MOD BY github.com/shasa-->
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a3b07241-bdfc-41ba-80f3-341f20bc9e23" version="1.0">
+  <Properties>
+    <Name>Better Builder Mod</Name>
+    <Description>allows the builder to go 3 fields per turn and he is not slowed down by a terrain typeincreases the actions to 5, lets him plant forests, harvest resources, build the fishery without the governor being established and lets him build everything by the engineer.</Description>
+    <Teaser>This mod improves the builder.</Teaser>
+    <Authors>Shasa</Authors>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="better_builder_shasa">
+	  <Properties>
+        <LoadOrder>126</LoadOrder>
+      </Properties>
+	  <File>builder.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+	<File>builder.sql</File>
+  </Files>
+</Mod>
